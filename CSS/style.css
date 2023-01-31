@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+    height: 70px;
+    background: #85C1E9;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    height: auto;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a {
+    
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+
+.listanav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    list-style-type: none;
+    border-radius: none;
+}
+
+#button{
+    background-color: gray;
+    border: 10px;
+    padding: 15px 15px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+#mostrar{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    list-style-position: inside;
+    list-style-type: none;
+    margin-left: 4px;
+    font-size: 10px;
+    width: 200px;
+    margin-right: 5px;
+    
+}
+
+#mostrar2{
+    display: none;
+    list-style-position: inside;
+    list-style-type: none;
+    margin-left: 5px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+#mostrar3{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-left: 4px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#buttonO{
+    display: none;
+}
+
+.li2{
+    padding-left: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section{
+    background-color:#D5DBDB;
+    margin-left: 4px;
+    width: 100%;
+    
+
+}
+
+.h2a{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-top: solid 2px;
+    margin-bottom: 10px;
+}
+
+.list{
+    list-style-position: inside;
+    margin-left: 4px;
+    list-style-type: disc;
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+.listclass{
+    list-style-position: inside;
+    margin-left: 4px;
+    list-style-type: disc;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+aside{
+    background-color: white;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 5px;
+    height: auto;
+}
+
+
+
